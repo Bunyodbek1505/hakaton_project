@@ -1,3 +1,5 @@
+
+// SignUpAndLogin.jsx
 import React, { useState } from "react";
 import signLogin from "../css/signUpAndLogin.module.scss";
 import { useNavigate } from "react-router-dom";
