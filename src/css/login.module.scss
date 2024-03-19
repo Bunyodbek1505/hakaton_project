@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login_main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 150px 0;
+}
+.account_left {
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 50%;
+  bottom: 0;
+  /* bottom: 40px; */
+  overflow: hidden;
+  background-color: #EAF7EE;
+  z-index: -1;
+}
+
+.companies {
+  text-align: center;
+}
+.companies h2{
+    background-color: #068932;
+    width: 60px;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 3px 0;
+    margin: 0 auto;
+}
+.companies h1{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.comp_title{
+    color: #48BD70;
+}
+.companies p{
+    width: 350px;
+    margin: 20px 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+.companies button{
+    border: none;
+    background-color: #068932;
+    padding: 10px 50px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.create_acc_bottom{
+    margin: 30px 0;
+    text-align: center !important;
+}
+.create_acc_bottom h4{
+    font-size: 16px;
+    color: rgb(97, 96, 96);
+    font-weight: 200;
+}
+.create_acc_bottom strong a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+/* For Developers */
+
+.developers{
+    /* width: 50%; */
+    text-align: center;
+}
+.login_acc h1{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+.login_acc p{
+    width: 400px;
+    margin: 25px 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+.login_acc button{
+    background-color: #fff;
+    padding: 10px 50px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.developers .dev_acco{
+    margin: 30px 0;
+}
+.developers .dev_acco a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight: 800;
+}
+.developers .dev_acco h4{
+    font-size: 16px;
+    color: rgb(97, 96, 96);
+    font-weight: 200;
+}

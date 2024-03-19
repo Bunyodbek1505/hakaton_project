@@ -1,0 +1,12 @@
+.header ul{
+    display: flex;
+    justify-content: end;
+}
+.header li{
+    list-style-type: none;
+    margin: 0 15px;
+}
+.header button{
+    cursor: pointer;
+    background-color: red($color: #000000);
+}

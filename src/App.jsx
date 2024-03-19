@@ -1,13 +1,11 @@
-import './App.css'
-import Button from './Button'
-import Login from './Login'
+
+import Layout from "./components/layout/Layout"
 
 function App() {
 
   return (
     <>
-      {/* <Button /> */}
-      <Login/>
+      <Layout/>
     </>
   )
 }
